@@ -1,0 +1,11 @@
+# 统一换行符，避免 Windows/Linux 来回改
+* text=auto
+
+# 数据文件保持原样（cmudict 是 LF，别被转成 CRLF）
+*.dict -text
+*.pnx -text
+*.png binary
+*.zip binary
+
+# Windows 批处理必须是 CRLF
+*.bat text eol=crlf

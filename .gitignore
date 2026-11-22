@@ -1,0 +1,23 @@
+# --- 本地运行产物 ---
+config.json
+helper.log
+helper.lock
+_selftest.txt
+voice_cache/
+__pycache__/
+*.pyc
+
+# --- 由本地 ETS 客户端数据生成的索引（体积大、且属于第三方词库衍生数据，
+#     不入库；程序首次运行会用 --prebuild 自动重建）---
+ipa_index.json
+word_ipa.json
+
+# --- 便携版构建产物（用 Releases 发布，不进 git）---
+dist/
+*.zip
+
+# --- 开发时的临时探针脚本 ---
+_*.py
+_*.txt
+_*.png
+_*.ps1
