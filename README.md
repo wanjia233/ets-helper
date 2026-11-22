@@ -17,6 +17,18 @@
 
 ---
 
+## 下载便携版（免安装）
+
+不想装 Python 就直接下这个：
+
+**[ets-helper-portable-v1.0.zip](https://github.com/wanjia233/ets-helper/releases/download/v1.0/ets-helper-portable-v1.0.zip)** （18.8 MB）
+
+解压后双击 `启动.bat` 即可。自带 Python 3.12 运行时，目标电脑不需要装 Python、不需要联网。
+
+> 前提：目标机器装过 E听说 并打开过对应作业（本工具读的是本地缓存与日志）。
+
+---
+
 ## 快速开始
 
 本机装有 Python 3.8+ 的话：
